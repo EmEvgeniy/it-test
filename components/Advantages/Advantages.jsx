@@ -74,24 +74,24 @@ export default function Advantages() {
 						height={line3.height}
 					/>
 					<motion.div
-						initial={{ opacity: 0, x: "100%" }}
-						whileInView={{ opacity: 1, x: 0 }}
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: 1, scale: 1 }}
 						transition={{ delay: 0, duration: 0.3 }}
 						className={classes.item}>
 						<h2 className={classes.title}>30+ клиентов</h2>
 						<p className={classes.sub_title}>Владельцев бизнеса</p>
 					</motion.div>
 					<motion.div
-						initial={{ opacity: 0, x: "100%" }}
-						whileInView={{ opacity: 1, x: 0 }}
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: 1, scale: 1 }}
 						transition={{ delay: 0.2, duration: 0.3 }}
 						className={classes.item2}>
 						<h2 className={classes.title2}>10+ количество</h2>
 						<p className={classes.sub_title}>Сотрудников высшего разряда</p>
 					</motion.div>
 					<motion.div
-						initial={{ opacity: 0, x: "100%" }}
-						whileInView={{ opacity: 1, x: 0 }}
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: 1, scale: 1 }}
 						transition={{ delay: 0.3, duration: 0.3 }}
 						className={classes.item3}>
 						<h2 className={classes.title3}>40% увелечение</h2>
