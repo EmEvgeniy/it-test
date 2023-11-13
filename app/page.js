@@ -1,5 +1,7 @@
 import Advantages from "@/components/Advantages/Advantages";
+import Development from "@/components/Development/Development";
 import Hero from "@/components/Hero/Hero";
+import Marketing from "@/components/Marketing/Marketing";
 import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
 			<Hero />
 			<Advantages />
 			<Projects />
+			<Development />
+			<Marketing />
 		</main>
 	);
 }

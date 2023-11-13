@@ -1,3 +1,4 @@
+"use client";
 import Container from "../container/Container";
 import classes from "./Projects.module.css";
 import bike from "@/public/bike.svg";
@@ -6,6 +7,8 @@ import has from "@/public/has.svg";
 import cake from "@/public/cake.svg";
 import orcus from "@/public/orcus.svg";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const data = [
 	{ id: 1, title: "Bikeland", img: bike },
@@ -21,18 +24,39 @@ export default function Projects() {
 			<Container>
 				<div className={classes.inner}>
 					<div className={classes.left}>
-						<h3>Наши свежие проекты</h3>
-						<p>
+						<motion.h3
+							initial={{ opacity: 0, x: "-100%" }}
+							whileInView={{ opacity: 1, x: 0 }}
+							transition={{ delay: 0.2, duration: 0.3 }}>
+							Наши свежие проекты
+						</motion.h3>
+						<motion.p
+							initial={{ opacity: 0, x: "-100%" }}
+							whileInView={{ opacity: 1, x: 0 }}
+							transition={{ delay: 0.3, duration: 0.3 }}>
 							Рбызавщплвазщпф ывапвафыздлпжов фаыждэрлоф важдплофыжадплыф
 							вплфжыдаполфады жвподфалжывпжфыдавп фыважлдоыфвдаофвыдаофывжа
 							фыважпдофыавд жлпофыждлважыдфвал
-						</p>
-						<span className={classes.btn}>Заказать</span>
+						</motion.p>
+						<Link to='top' spy={true} smooth={true} offset={50} duration={500}>
+							<motion.span
+								initial={{ opacity: 0, scale: 0 }}
+								whileInView={{ opacity: 1, scale: 1 }}
+								transition={{ delay: 0.35, duration: 0.3 }}
+								className={classes.btn}>
+								Заказать
+							</motion.span>
+						</Link>
 					</div>
 					<div className={classes.right}>
 						<div className={classes.right_inner}>
 							{data.map((el) => (
-								<div key={el.id} className={classes.card}>
+								<motion.div
+									initial={{ opacity: 0 }}
+									whileInView={{ opacity: 1 }}
+									transition={{ delay: `0.${el.id}`, duration: 0.3 }}
+									key={el.id}
+									className={classes.card}>
 									<div className={classes.logo}>
 										<Image
 											src={el.img ? el.img : ""}
@@ -42,7 +66,7 @@ export default function Projects() {
 										/>
 									</div>
 									<p>{el.title}</p>
-								</div>
+								</motion.div>
 							))}
 						</div>
 					</div>
