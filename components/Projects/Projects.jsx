@@ -20,7 +20,7 @@ const data = [
 
 export default function Projects() {
 	return (
-		<section className={classes.Projects}>
+		<section className={classes.Projects} id="projects">
 			<Container>
 				<div className={classes.inner}>
 					<div className={classes.left}>

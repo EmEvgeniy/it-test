@@ -29,7 +29,7 @@ const data = [
 
 export default function ForBusiness() {
 	return (
-		<section className={classes.ForBusiness}>
+		<section className={classes.ForBusiness} id="business">
 			<Container>
 				<div className={classes.inner}>
 					<h6>ДЛЯ ВЛАДЕЛЬЦЕВ БИЗНЕСА</h6>

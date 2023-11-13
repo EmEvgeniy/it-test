@@ -2,10 +2,9 @@
 import { useState } from "react";
 import classes from "./customSelect.module.css";
 
-const data = ["Разработка", "Реклама"];
+const data = ["Выберите тип услуги", "Разработка", "Реклама"];
 
-export default function CustomSelect({item,setItem}) {
-	
+export default function CustomSelect({ item, setItem }) {
 	return (
 		<div className={classes.CustomSelect}>
 			<div className={classes.customSelect}>
@@ -13,9 +12,9 @@ export default function CustomSelect({item,setItem}) {
 					value={item}
 					onChange={(e) => setItem(e.target.value)}
 					className={classes.select}>
-					<option value='' disabled selected>
+					{/* <option  disabled selected>
 						Выберите тип услуги
-					</option>
+					</option> */}
 					{data.map((el, index) => (
 						<option value={el} key={index}>
 							{el}

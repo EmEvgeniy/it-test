@@ -1,12 +1,21 @@
 import classes from "./nav.module.css";
+import { Link } from "react-scroll";
 
-export default function Nav({active}) {
+export default function Nav({ active }) {
 	return (
 		<nav className={`${classes.Nav} ${active ? classes.active : ""}`}>
-			<li className={classes.Nav_item}>Проекты</li>
-			<li className={classes.Nav_item}>Услуги</li>
-			<li className={classes.Nav_item}>Сообщество</li>
-			<li className={classes.Nav_item}>Контакты</li>
+			<Link to='projects' spy={true} smooth={true} offset={50} duration={500}>
+				<li className={classes.Nav_item}>Проекты</li>
+			</Link>
+			<Link to='marketing' spy={true} smooth={true} offset={50} duration={500}>
+				<li className={classes.Nav_item}>Услуги</li>
+			</Link>
+			<Link to='business' spy={true} smooth={true} offset={50} duration={500}>
+				<li className={classes.Nav_item}>Сообщество</li>
+			</Link>
+			<Link to='footer' spy={true} smooth={true} offset={50} duration={500}>
+				<li className={classes.Nav_item}>Контакты</li>
+			</Link>
 		</nav>
 	);
 }

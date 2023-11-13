@@ -9,6 +9,13 @@
 	font-weight: 300;
 	line-height: normal;
 }
+.Nav li {
+	cursor: pointer;
+	transition: all 0.25s ease;
+}
+.Nav li:hover {
+	color: #ea6045;
+}
 @media (max-width: 768px) {
 	.Nav {
 		position: absolute;

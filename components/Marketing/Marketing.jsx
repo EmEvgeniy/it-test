@@ -53,7 +53,7 @@ const data = [
 
 export default function Marketing() {
 	return (
-		<section className={classes.Development}>
+		<section className={classes.Development} id="marketing">
 			<Container>
 				<div className={classes.inner}>
 					<Image

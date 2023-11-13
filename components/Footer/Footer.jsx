@@ -9,7 +9,7 @@ import { LiaTelegramPlane } from "react-icons/lia";
 
 export default function Footer() {
 	return (
-		<footer className={classes.Footer}>
+		<footer className={classes.Footer} id="footer">
 			<Container>
 				<div className={classes.inner}>
 					<div className={classes.inner_item}>

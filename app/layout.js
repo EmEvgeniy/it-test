@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
-	title: "IT-TEST",
+	title: "it-test.uz Построй бизнес в онлайне",
 	description:
 		"IT-TEST - это команда опытных специалистов по разработке и рекламе и маркетингу. Мы предлагаем полный спектр услуг по созданию и продвижению веб-сайтов, а также по разработке и реализации маркетинговых кампаний.",
 	Icons: {

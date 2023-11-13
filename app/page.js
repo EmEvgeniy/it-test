@@ -13,7 +13,7 @@ export default function Home() {
 			<Projects />
 			<Development />
 			<Marketing />
-			<ForBusiness/>
+			<ForBusiness />
 		</main>
 	);
 }
