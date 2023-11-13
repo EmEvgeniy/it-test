@@ -71,12 +71,12 @@ export default function Marketing() {
 							width={100}
 							height={100}
 						/>
-						<motion.h4
+						<motion.h5
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
 							transition={{ delay: 0.3, duration: 0.3 }}>
 							Интернет реклама / маркетинг
-						</motion.h4>
+						</motion.h5>
 					</div>
 					<Image
 						alt='line'
