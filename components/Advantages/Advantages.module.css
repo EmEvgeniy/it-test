@@ -1,6 +1,7 @@
 .Advantages {
 	min-height: 1045px;
 	background: url("../../public/bg2.webp.png");
+	overflow: hidden;
 }
 .line {
 	position: absolute;
