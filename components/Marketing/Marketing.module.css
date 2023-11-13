@@ -23,7 +23,7 @@
 	left: 35px;
 	z-index: 3;
 }
-.title h4 {
+.title h5 {
 	color: #fff;
 	font-family: SF-B;
 	font-size: 56px;
@@ -178,7 +178,7 @@
 	letter-spacing: -0.6px;
 }
 @media (max-width: 960px) {
-	.title h4 {
+	.title h5 {
 		color: #fff;
 		font-family: SF-B;
 		font-size: 36px;
@@ -203,7 +203,7 @@
 		justify-content: flex-start;
 		gap: 0px;
 	}
-	.title h4 {
+	.title h5 {
 		color: #fff;
 		font-family: SF-B;
 		font-size: 25px;
@@ -245,7 +245,7 @@
 		left: 20px;
 		z-index: 3;
 	}
-	.title h4 {
+	.title h5 {
 		color: #fff;
 		font-family: SF-B;
 		font-size: 23px;
