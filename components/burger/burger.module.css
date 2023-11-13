@@ -1,0 +1,19 @@
+.Burger {
+	cursor: pointer;
+	color: #fff;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	position: relative;
+	z-index: 11;
+}
+
+@media (max-width: 768px) {
+	.Burger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 25px;
+	}
+}

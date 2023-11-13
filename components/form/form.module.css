@@ -1,0 +1,80 @@
+.Form {
+	border-radius: 15px;
+	border: 0.75px solid rgba(255, 255, 255, 0.25);
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	padding: 24px 40px;
+	margin: 40px  0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	position: relative;
+	z-index: 2;
+}
+.range {
+	width: 380px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.price {
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.1);
+	padding: 12px 25px;
+	font-size: 16px;
+	min-width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Form input {
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.1);
+	outline: none;
+	font-size: 16px;
+	padding: 12px 25px;
+	width: 180px;
+}
+.btn {
+	border-radius: 5px;
+	background: #763fc6;
+	width: 150px;
+	padding: 12px 25px;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+}
+@media (max-width: 1300px) {
+	.Form {
+		flex-direction: column;
+		max-width: 500px;
+		gap: 20px;
+		padding: 24px 30px;
+	}
+	.range {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+	}
+	.price {
+		font-size: 18px;
+		width: 100%;
+	}
+	.Form input {
+		border-radius: 5px;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		background: rgba(255, 255, 255, 0.1);
+		outline: none;
+		font-size: 16px;
+		padding: 12px 25px;
+		width: 100%;
+	}
+}

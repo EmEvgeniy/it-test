@@ -1,0 +1,27 @@
+.Header {
+	position: fixed;
+	top: 0;
+	background: transparent;
+	transition: all 0.25s ease;
+	z-index: 10;
+	width: 100%;
+}
+.Header.active {
+	background-color: #000;
+	transition: all 0.25s ease;
+}
+.inner {
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.inner img {
+	width: 90px;
+	height: 60px;
+	object-fit: cover;
+	object-position: center top;
+	position: relative;
+	z-index: 11;
+}

@@ -1,0 +1,381 @@
+.Advantages {
+	min-height: 1045px;
+	background: url("../../public/bg2.webp.png");
+}
+.line {
+	position: absolute;
+	top: -80px;
+	z-index: 2;
+	left: 0;
+}
+.line2 {
+	position: absolute;
+	top: 100px;
+	z-index: 2;
+	left: 12px;
+}
+.line3 {
+	position: absolute;
+	top: 455px;
+	z-index: 2;
+	left: 35px;
+}
+.line4 {
+	position: absolute;
+	top: 510px;
+	z-index: 2;
+	left: 15px;
+}
+.line5 {
+	position: absolute;
+	top: 848px;
+	z-index: 2;
+	left: 45px;
+}
+.icon {
+	position: absolute;
+	top: 20px;
+	left: -27px;
+}
+.icon2 {
+	position: absolute;
+	top: 425px;
+	left: -25px;
+}
+.icon3 {
+	position: absolute;
+	top: 820px;
+	z-index: 2;
+	left: -22px;
+}
+.item {
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+.item2 {
+	position: absolute;
+	top: 405px;
+	left: 240px;
+}
+.item3 {
+	position: absolute;
+	top: 800px;
+	left: 460px;
+}
+.inner {
+	padding: 20px 0;
+	position: relative;
+}
+.title {
+	color: #7176ec;
+	text-shadow: 0px 0px 21px rgba(113, 117, 236, 0.248);
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.sub_title {
+	color: #fff;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.title2 {
+	color: #ea6045;
+	text-shadow: 0px 0px 21px rgba(224, 142, 124, 0.251);
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.title3 {
+	color: #35b5de;
+	text-shadow: 0px 0px 21px rgba(112, 180, 201, 0.3);
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+@media (max-width: 1300px) {
+	.title,
+	.title2,
+	.title3 {
+		font-size: 66px;
+	}
+	.item {
+		top: 23px;
+		left: 70px;
+	}
+	.item2 {
+		position: absolute;
+		top: 420px;
+		left: 250px;
+	}
+	.item3 {
+		left: 450px;
+	}
+}
+@media (max-width: 1050px) {
+	.title,
+	.title2,
+	.title3 {
+		font-size: 66px;
+	}
+	.line5 {
+		position: absolute;
+		top: 848px;
+		z-index: 2;
+		left: 45px;
+		width: 300px;
+	}
+	.item {
+		top: 23px;
+	}
+	.item2 {
+		position: absolute;
+		top: 420px;
+		left: 180px;
+	}
+	.line3 {
+		position: absolute;
+		top: 455px;
+		z-index: 2;
+		left: 35px;
+		width: 150px;
+	}
+	.item3 {
+		position: absolute;
+		top: 803px;
+		left: 350px;
+	}
+}
+@media (max-width: 950px) {
+	.Advantages {
+		min-height: 800px;
+		background: url("../../public/bg2.webp.png");
+	}
+	.title,
+	.title2,
+	.title3 {
+		font-size: 56px;
+	}
+	.sub_title {
+		font-size: 25px;
+	}
+	.icon2 {
+		position: absolute;
+		top: 285px;
+		left: -25px;
+	}
+	.line2 {
+		position: absolute;
+		top: 100px;
+		z-index: 2;
+		left: 12px;
+		height: 200px;
+	}
+	.line3 {
+		position: absolute;
+		top: 314px;
+		z-index: 2;
+		left: 35px;
+		width: 100px;
+	}
+	.line5 {
+		position: absolute;
+		top: 580px;
+		z-index: 2;
+		left: 45px;
+		width: 200px;
+	}
+	.line4 {
+		position: absolute;
+		top: 360px;
+		z-index: 2;
+		left: 15px;
+		height: 200px;
+	}
+	.icon3 {
+		position: absolute;
+		top: 550px;
+		z-index: 2;
+		left: -22px;
+	}
+	.item {
+		top: 30px;
+	}
+	.item2 {
+		position: absolute;
+		top: 290px;
+		left: 130px;
+	}
+	.item3 {
+		position: absolute;
+		top: 555px;
+		left: 240px;
+	}
+}
+@media (max-width: 768px) {
+	.Advantages {
+		min-height: 800px;
+		background: url("../../public/bg2.webp.png");
+	}
+	.title,
+	.title2,
+	.title3 {
+		font-size: 56px;
+	}
+	.sub_title {
+		font-size: 25px;
+	}
+	.icon2 {
+		position: absolute;
+		top: 285px;
+		left: -25px;
+	}
+	.line2 {
+		position: absolute;
+		top: 100px;
+		z-index: 2;
+		left: 12px;
+		height: 200px;
+	}
+	.line3 {
+		display: none;
+		position: absolute;
+		top: 314px;
+		z-index: 2;
+		left: 35px;
+		width: 100px;
+	}
+	.line5 {
+		position: absolute;
+		top: 580px;
+		z-index: 2;
+		left: 45px;
+		width: 200px;
+		display: none;
+	}
+	.line4 {
+		position: absolute;
+		top: 360px;
+		z-index: 2;
+		left: 15px;
+		height: 200px;
+	}
+	.icon3 {
+		position: absolute;
+		top: 550px;
+		z-index: 2;
+		left: -22px;
+	}
+	.item {
+		top: 30px;
+	}
+	.item2 {
+		position: absolute;
+		top: 290px;
+		left: 70px;
+	}
+	.item3 {
+		position: absolute;
+		top: 555px;
+		left: 70px;
+	}
+}
+@media (max-width: 600px) {
+	.Advantages {
+		min-height: 660px;
+		background: url("../../public/bg2.webp.png");
+	}
+	.title,
+	.title2,
+	.title3 {
+		font-size: 35px;
+	}
+	.sub_title {
+		font-size: 18px;
+	}
+	.icon2 {
+		position: absolute;
+		top: 240px;
+		left: -25px;
+	}
+	.line2 {
+		position: absolute;
+		top: 100px;
+		z-index: 2;
+		left: 12px;
+		height: 150px;
+	}
+	.line3 {
+		display: none;
+		position: absolute;
+		top: 314px;
+		z-index: 2;
+		left: 35px;
+		width: 100px;
+	}
+	.line5 {
+		position: absolute;
+		top: 580px;
+		z-index: 2;
+		left: 45px;
+		width: 200px;
+		display: none;
+	}
+	.line4 {
+		position: absolute;
+		top: 330px;
+		z-index: 2;
+		left: 12px;
+		height: 150px;
+	}
+	.icon3 {
+		position: absolute;
+		top: 470px;
+		z-index: 2;
+		left: -25px;
+	}
+	.item {
+		top: 35px;
+	}
+	.item2 {
+		position: absolute;
+		top: 250px;
+		left: 70px;
+	}
+	.item3 {
+		position: absolute;
+		top: 485px;
+		left: 70px;
+	}
+}
+@media (max-width: 450px) {
+	.Advantages {
+		min-height: 660px;
+		background: url("../../public/bg2.webp.png");
+	}
+	.title,
+	.title2,
+	.title3 {
+		font-size: 25px;
+	}
+	.sub_title {
+		font-size: 16px;
+	}
+	.item {
+		top: 40px;
+	}
+	.item2 {
+		position: absolute;
+		top: 260px;
+		left: 70px;
+	}
+	.item3 {
+		top: 488px;
+	}
+}
